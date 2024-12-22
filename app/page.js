@@ -17,10 +17,7 @@ const page = () => {
         <div className="container">
           <div className="row align-items-center mil-mb-80">
             <div className="col-xl-5">
-              <div
-                className="mil-banner-text"
-                style={{ zIndex: "100", marginRight: "2rem" }}
-              >
+              <div className="mil-banner-text" style={{ zIndex: "100" }}>
                 <div className="mil-text-l mil-light mil-mb-20">
                   Shiro Concepts Investment
                 </div>
