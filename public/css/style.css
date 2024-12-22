@@ -1397,7 +1397,7 @@ banner
 @media screen and (max-width: 480px) {
   .mil-banner .mil-banner-img img {
     position: relative;
-    right: 35%;
+    right: 30%;
     top: 5rem;
   }
 }
