@@ -11,23 +11,36 @@ const Header = ({ dark }) => {
   return (
     <div className="mil-top-panel mil-dark-2">
       <div className="container">
-        <Link href="/" className="mil-logo">
-          <img src="/img/shiro-logo.png" alt="Plax" width={101} height={50} />
+        <Link href="/" className="mil-logo" aria-label="home section link">
+          <img
+            src="/img/shiro-logo.png"
+            alt="Shiro Concepts Investment Logo"
+            width={101}
+            height={50}
+          />
         </Link>
         <nav className={`mil-top-menu ${toggle ? "mil-active" : ""}`}>
           <ul>
             <li className={`${activeMenuFuntion(["home"])}`}>
-              <Link href="/">Home</Link>
+              <Link href="/" aria-label="home section link">
+                Home
+              </Link>
             </li>
             <li className={`${activeMenuFuntion(["about"])}`}>
-              <Link href="about">About</Link>
+              <Link href="about" aria-label="About section link">
+                About
+              </Link>
             </li>
             <li className={`${activeMenuFuntion(["services"])}`}>
-              <Link href="services">Services</Link>
+              <Link href="services" aria-label="Services section link">
+                Services
+              </Link>
             </li>
 
             <li className={`${activeMenuFuntion(["contact"])}`}>
-              <Link href="contact">Contact</Link>
+              <Link href="contact" aria-label="Contact Us section link">
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>{" "}

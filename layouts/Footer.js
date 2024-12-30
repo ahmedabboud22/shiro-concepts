@@ -25,8 +25,22 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
             </a>
           </div>
           <div className="col-xl-3 mil-mb-60">
-            <h6 className="mil-mb-60 mil-soft">Usefull Links</h6>
-            <ul className="mil-footer-list">
+            <h3
+              className="mil-mb-60 mil-soft"
+              style={{
+                fontFamily: "neue-heading",
+                letterSpacing: "1.5px",
+              }}
+            >
+              Usefull Links
+            </h3>
+            <ul
+              className="mil-footer-list"
+              style={{
+                fontFamily: "neue-text",
+                letterSpacing: "1.5px",
+              }}
+            >
               <li className="mil-text-m mil-pale mil-mb-15">
                 <Link href="/">Home</Link>
               </li>
@@ -42,42 +56,70 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
             </ul>
           </div>
           <div className="col-xl-3 mil-mb-60">
-            <h6 className="mil-mb-60 mil-soft">Contact</h6>
-            <ul className="mil-footer-list">
+            <h3
+              className="mil-mb-60 mil-soft"
+              style={{
+                fontFamily: "neue-heading",
+                letterSpacing: "1.5px",
+              }}
+            >
+              Contact
+            </h3>
+            <ul
+              className="mil-footer-list"
+              style={{
+                fontFamily: "neue-text",
+                letterSpacing: "1.5px",
+              }}
+            >
               <li className="mil-text-m mil-pale mil-mb-15">
-                +971 (123) 456-7891
+                +971 (0) 4 512 6800
               </li>
               <li className="mil-text-m mil-pale mil-mb-15">
-                support@shiroconcepts.com
+                +971 52 795 5078
+              </li>
+              <li className="mil-text-m mil-pale mil-mb-15">
+                info@shiroinvestment.com
               </li>
             </ul>
           </div>
-          <div className="col-xl-3 mil-mb-80">
-            <h6 className="mil-mb-60 mil-soft">Newsletter</h6>
-            <p className="mil-text-xs mil-pale mil-mb-15">
-              Subscribe to get the latest news form us
-            </p>
-            <form className="mil-subscripe-form-footer">
-              <input className="mil-input" type="email" placeholder="Email" />
-              <button type="submit">
-                <i className="far fa-envelope-open mil-dark" />
-              </button>
-              <div className="mil-checkbox-frame mil-mt-15">
-                <div className="mil-checkbox">
-                  <input type="checkbox" id="checkbox" defaultChecked="" />
-                  <label htmlFor="checkbox" />
-                </div>
-                <p className="mil-text-xs mil-pale">
-                  Subscribe to get the latest news
-                </p>
+          {/* <div className="col-xl-3 mil-mb-80">
+          <h3 className="mil-mb-60 mil-soft">Newsletter</h3>
+          <p className="mil-text-xs mil-pale mil-mb-15">
+            Subscribe to get the latest news form us
+          </p>
+          <form className="mil-subscripe-form-footer">
+            <input className="mil-input" type="email" placeholder="Email" />
+            <button type="submit" aria-label="submit button">
+              <i className="far fa-envelope-open mil-dark" />
+            </button>
+            <div className="mil-checkbox-frame mil-mt-15">
+              <div className="mil-checkbox">
+                <input
+                  type="checkbox"
+                  id="checkbox"
+                  defaultChecked=""
+                  style={{ backgroundColor: " #e7e5e0" }}
+                />
+                <label htmlFor="checkbox" />
               </div>
-            </form>
-          </div>
+              <p className="mil-text-xs mil-pale">
+                Subscribe to get the latest news
+              </p>
+            </div>
+          </form>
+        </div> */}
         </div>
         <div className="mil-footer-bottom">
           <div className="row">
             <div className="col-xl-6">
-              <p className="mil-text-s mil-pale">
+              <p
+                className="mil-text-s mil-pale"
+                style={{
+                  fontFamily: "neue-text",
+                  letterSpacing: "1.5px",
+                }}
+              >
                 © 2024 Shiro Concepts Investment
               </p>
             </div>
@@ -98,8 +140,22 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
             </a>
           </div>
           <div className="col-xl-3 mil-mb-60">
-            <h6 className="mil-mb-60 mil-soft">Usefull Links</h6>
-            <ul className="mil-footer-list">
+            <h3
+              className="mil-mb-60 mil-soft"
+              style={{
+                fontFamily: "neue-heading",
+                letterSpacing: "1.5px",
+              }}
+            >
+              Usefull Links
+            </h3>
+            <ul
+              className="mil-footer-list"
+              style={{
+                fontFamily: "neue-text",
+                letterSpacing: "1.5px",
+              }}
+            >
               <li className="mil-text-m mil-pale mil-mb-15">
                 <Link href="/">Home</Link>
               </li>
@@ -115,42 +171,70 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
             </ul>
           </div>
           <div className="col-xl-3 mil-mb-60">
-            <h6 className="mil-mb-60 mil-soft">Contact</h6>
-            <ul className="mil-footer-list">
+            <h3
+              className="mil-mb-60 mil-soft"
+              style={{
+                fontFamily: "neue-heading",
+                letterSpacing: "1.5px",
+              }}
+            >
+              Contact
+            </h3>
+            <ul
+              className="mil-footer-list"
+              style={{
+                fontFamily: "neue-text",
+                letterSpacing: "1.5px",
+              }}
+            >
               <li className="mil-text-m mil-pale mil-mb-15">
-                +971 (123) 456-7891
+                +971 (0) 4 512 6800
               </li>
               <li className="mil-text-m mil-pale mil-mb-15">
-                support@shiroconcepts.com
+                +971 52 795 5078
+              </li>
+              <li className="mil-text-m mil-pale mil-mb-15">
+                info@shiroinvestment.com
               </li>
             </ul>
           </div>
-          <div className="col-xl-3 mil-mb-80">
-            <h6 className="mil-mb-60 mil-soft">Newsletter</h6>
-            <p className="mil-text-xs mil-pale mil-mb-15">
-              Subscribe to get the latest news form us
-            </p>
-            <form className="mil-subscripe-form-footer">
-              <input className="mil-input" type="email" placeholder="Email" />
-              <button type="submit">
-                <i className="far fa-envelope-open mil-dark" />
-              </button>
-              <div className="mil-checkbox-frame mil-mt-15">
-                <div className="mil-checkbox">
-                  <input type="checkbox" id="checkbox" defaultChecked="" />
-                  <label htmlFor="checkbox" />
-                </div>
-                <p className="mil-text-xs mil-pale">
-                  Subscribe to get the latest news
-                </p>
+          {/* <div className="col-xl-3 mil-mb-80">
+          <h3 className="mil-mb-60 mil-soft">Newsletter</h3>
+          <p className="mil-text-xs mil-pale mil-mb-15">
+            Subscribe to get the latest news form us
+          </p>
+          <form className="mil-subscripe-form-footer">
+            <input className="mil-input" type="email" placeholder="Email" />
+            <button type="submit" aria-label="submit button">
+              <i className="far fa-envelope-open mil-dark" />
+            </button>
+            <div className="mil-checkbox-frame mil-mt-15">
+              <div className="mil-checkbox">
+                <input
+                  type="checkbox"
+                  id="checkbox"
+                  defaultChecked=""
+                  style={{ backgroundColor: " #e7e5e0" }}
+                />
+                <label htmlFor="checkbox" />
               </div>
-            </form>
-          </div>
+              <p className="mil-text-xs mil-pale">
+                Subscribe to get the latest news
+              </p>
+            </div>
+          </form>
+        </div> */}
         </div>
         <div className="mil-footer-bottom">
           <div className="row">
             <div className="col-xl-6">
-              <p className="mil-text-s mil-pale">
+              <p
+                className="mil-text-s mil-pale"
+                style={{
+                  fontFamily: "neue-text",
+                  letterSpacing: "1.5px",
+                }}
+              >
                 © 2024 Shiro Concepts Investment
               </p>
             </div>
@@ -172,8 +256,22 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
             </a>
           </div>
           <div className="col-xl-3 mil-mb-60">
-            <h6 className="mil-mb-60 mil-soft">Usefull Links</h6>
-            <ul className="mil-footer-list">
+            <h3
+              className="mil-mb-60 mil-soft"
+              style={{
+                fontFamily: "neue-heading",
+                letterSpacing: "1.5px",
+              }}
+            >
+              Usefull Links
+            </h3>
+            <ul
+              className="mil-footer-list"
+              style={{
+                fontFamily: "neue-text",
+                letterSpacing: "1.5px",
+              }}
+            >
               <li className="mil-text-m mil-pale mil-mb-15">
                 <Link href="/">Home</Link>
               </li>
@@ -189,47 +287,70 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
             </ul>
           </div>
           <div className="col-xl-3 mil-mb-60">
-            <h6 className="mil-mb-60 mil-soft">Contact</h6>
-            <ul className="mil-footer-list">
+            <h3
+              className="mil-mb-60 mil-soft"
+              style={{
+                fontFamily: "neue-heading",
+                letterSpacing: "1.5px",
+              }}
+            >
+              Contact
+            </h3>
+            <ul
+              className="mil-footer-list"
+              style={{
+                fontFamily: "neue-text",
+                letterSpacing: "1.5px",
+              }}
+            >
               <li className="mil-text-m mil-pale mil-mb-15">
-                +971 (123) 456-7891
+                +971 (0) 4 512 6800
               </li>
               <li className="mil-text-m mil-pale mil-mb-15">
-                support@shiroconcepts.com
+                +971 52 795 5078
+              </li>
+              <li className="mil-text-m mil-pale mil-mb-15">
+                info@shiroinvestment.com
               </li>
             </ul>
           </div>
-          <div className="col-xl-3 mil-mb-80">
-            <h6 className="mil-mb-60 mil-soft">Newsletter</h6>
-            <p className="mil-text-xs mil-pale mil-mb-15">
-              Subscribe to get the latest news form us
-            </p>
-            <form className="mil-subscripe-form-footer">
-              <input className="mil-input" type="email" placeholder="Email" />
-              <button type="submit">
-                <i className="far fa-envelope-open mil-dark" />
-              </button>
-              <div className="mil-checkbox-frame mil-mt-15">
-                <div className="mil-checkbox">
-                  <input
-                    type="checkbox"
-                    id="checkbox"
-                    defaultChecked=""
-                    style={{ backgroundColor: " #e7e5e0" }}
-                  />
-                  <label htmlFor="checkbox" />
-                </div>
-                <p className="mil-text-xs mil-pale">
-                  Subscribe to get the latest news
-                </p>
+          {/* <div className="col-xl-3 mil-mb-80">
+          <h3 className="mil-mb-60 mil-soft">Newsletter</h3>
+          <p className="mil-text-xs mil-pale mil-mb-15">
+            Subscribe to get the latest news form us
+          </p>
+          <form className="mil-subscripe-form-footer">
+            <input className="mil-input" type="email" placeholder="Email" />
+            <button type="submit" aria-label="submit button">
+              <i className="far fa-envelope-open mil-dark" />
+            </button>
+            <div className="mil-checkbox-frame mil-mt-15">
+              <div className="mil-checkbox">
+                <input
+                  type="checkbox"
+                  id="checkbox"
+                  defaultChecked=""
+                  style={{ backgroundColor: " #e7e5e0" }}
+                />
+                <label htmlFor="checkbox" />
               </div>
-            </form>
-          </div>
+              <p className="mil-text-xs mil-pale">
+                Subscribe to get the latest news
+              </p>
+            </div>
+          </form>
+        </div> */}
         </div>
         <div className="mil-footer-bottom">
           <div className="row">
             <div className="col-xl-6">
-              <p className="mil-text-s mil-pale">
+              <p
+                className="mil-text-s mil-pale"
+                style={{
+                  fontFamily: "neue-text",
+                  letterSpacing: "1.5px",
+                }}
+              >
                 © 2024 Shiro Concepts Investment
               </p>
             </div>
