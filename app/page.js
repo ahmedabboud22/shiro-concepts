@@ -302,7 +302,7 @@ const page = () => {
           <div className="container" style={{ backgroundColor: " #162341" }}>
             <div
               className="mil-out-frame mil-bg-2"
-              style={{ backgroundColor: " #162341" }}
+              style={{ backgroundColor: " #162341", paddingLeft: "100px" }}
             >
               <div className="row justify-content-center align-items-center mil-p-160-160">
                 <div className="col-xl-7 mil-text-center">
