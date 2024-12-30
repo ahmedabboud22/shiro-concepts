@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+
 const Footer = ({ bg = true, margin = 160, footer }) => {
   switch (footer) {
     case 1:
@@ -32,7 +34,7 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
                 letterSpacing: "1.5px",
               }}
             >
-              Usefull Links
+              Sections
             </h3>
             <ul
               className="mil-footer-list"
@@ -84,31 +86,31 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
             </ul>
           </div>
           {/* <div className="col-xl-3 mil-mb-80">
-          <h3 className="mil-mb-60 mil-soft">Newsletter</h3>
-          <p className="mil-text-xs mil-pale mil-mb-15">
-            Subscribe to get the latest news form us
-          </p>
-          <form className="mil-subscripe-form-footer">
-            <input className="mil-input" type="email" placeholder="Email" />
-            <button type="submit" aria-label="submit button">
-              <i className="far fa-envelope-open mil-dark" />
-            </button>
-            <div className="mil-checkbox-frame mil-mt-15">
-              <div className="mil-checkbox">
-                <input
-                  type="checkbox"
-                  id="checkbox"
-                  defaultChecked=""
-                  style={{ backgroundColor: " #e7e5e0" }}
-                />
-                <label htmlFor="checkbox" />
-              </div>
-              <p className="mil-text-xs mil-pale">
-                Subscribe to get the latest news
-              </p>
+        <h3 className="mil-mb-60 mil-soft">Newsletter</h3>
+        <p className="mil-text-xs mil-pale mil-mb-15">
+          Subscribe to get the latest news form us
+        </p>
+        <form className="mil-subscripe-form-footer">
+          <input className="mil-input" type="email" placeholder="Email" />
+          <button type="submit" aria-label="submit button">
+            <i className="far fa-envelope-open mil-dark" />
+          </button>
+          <div className="mil-checkbox-frame mil-mt-15">
+            <div className="mil-checkbox">
+              <input
+                type="checkbox"
+                id="checkbox"
+                defaultChecked=""
+                style={{ backgroundColor: " #e7e5e0" }}
+              />
+              <label htmlFor="checkbox" />
             </div>
-          </form>
-        </div> */}
+            <p className="mil-text-xs mil-pale">
+              Subscribe to get the latest news
+            </p>
+          </div>
+        </form>
+      </div> */}
         </div>
         <div className="mil-footer-bottom">
           <div className="row">
@@ -120,7 +122,51 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
                   letterSpacing: "1.5px",
                 }}
               >
-                © 2024 Shiro Concepts Investment
+                © 2025 Shiro Concepts Investment
+              </p>
+            </div>{" "}
+            <div className="col-xl-6">
+              <p className="mil-text-s mil-text-right mil-sm-text-left mil-pale">
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsFacebook size={20} fill="white" />
+                </a>
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsInstagram size={20} fill="white" />
+                </a>
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsLinkedin size={20} fill="white" />
+                </a>
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsTwitter size={20} fill="white" />
+                </a>
               </p>
             </div>
           </div>
@@ -147,7 +193,7 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
                 letterSpacing: "1.5px",
               }}
             >
-              Usefull Links
+              Sections
             </h3>
             <ul
               className="mil-footer-list"
@@ -235,7 +281,51 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
                   letterSpacing: "1.5px",
                 }}
               >
-                © 2024 Shiro Concepts Investment
+                © 2025 Shiro Concepts Investment
+              </p>
+            </div>{" "}
+            <div className="col-xl-6">
+              <p className="mil-text-s mil-text-right mil-sm-text-left mil-pale">
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsFacebook size={20} fill="white" />
+                </a>
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsInstagram size={20} fill="white" />
+                </a>
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsLinkedin size={20} fill="white" />
+                </a>
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsTwitter size={20} fill="white" />
+                </a>
               </p>
             </div>
           </div>
@@ -263,7 +353,7 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
                 letterSpacing: "1.5px",
               }}
             >
-              Usefull Links
+              Sections
             </h3>
             <ul
               className="mil-footer-list"
@@ -315,31 +405,31 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
             </ul>
           </div>
           {/* <div className="col-xl-3 mil-mb-80">
-          <h3 className="mil-mb-60 mil-soft">Newsletter</h3>
-          <p className="mil-text-xs mil-pale mil-mb-15">
-            Subscribe to get the latest news form us
-          </p>
-          <form className="mil-subscripe-form-footer">
-            <input className="mil-input" type="email" placeholder="Email" />
-            <button type="submit" aria-label="submit button">
-              <i className="far fa-envelope-open mil-dark" />
-            </button>
-            <div className="mil-checkbox-frame mil-mt-15">
-              <div className="mil-checkbox">
-                <input
-                  type="checkbox"
-                  id="checkbox"
-                  defaultChecked=""
-                  style={{ backgroundColor: " #e7e5e0" }}
-                />
-                <label htmlFor="checkbox" />
-              </div>
-              <p className="mil-text-xs mil-pale">
-                Subscribe to get the latest news
-              </p>
+        <h3 className="mil-mb-60 mil-soft">Newsletter</h3>
+        <p className="mil-text-xs mil-pale mil-mb-15">
+          Subscribe to get the latest news form us
+        </p>
+        <form className="mil-subscripe-form-footer">
+          <input className="mil-input" type="email" placeholder="Email" />
+          <button type="submit" aria-label="submit button">
+            <i className="far fa-envelope-open mil-dark" />
+          </button>
+          <div className="mil-checkbox-frame mil-mt-15">
+            <div className="mil-checkbox">
+              <input
+                type="checkbox"
+                id="checkbox"
+                defaultChecked=""
+                style={{ backgroundColor: " #e7e5e0" }}
+              />
+              <label htmlFor="checkbox" />
             </div>
-          </form>
-        </div> */}
+            <p className="mil-text-xs mil-pale">
+              Subscribe to get the latest news
+            </p>
+          </div>
+        </form>
+      </div> */}
         </div>
         <div className="mil-footer-bottom">
           <div className="row">
@@ -351,7 +441,51 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
                   letterSpacing: "1.5px",
                 }}
               >
-                © 2024 Shiro Concepts Investment
+                © 2025 Shiro Concepts Investment
+              </p>
+            </div>{" "}
+            <div className="col-xl-6">
+              <p className="mil-text-s mil-text-right mil-sm-text-left mil-pale">
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsFacebook size={20} fill="white" />
+                </a>
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsInstagram size={20} fill="white" />
+                </a>
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsLinkedin size={20} fill="white" />
+                </a>
+                <a
+                  href="#"
+                  target="blank"
+                  style={{
+                    display: "inline-block",
+                    marginRight: "15px",
+                  }}
+                >
+                  <BsTwitter size={20} fill="white" />
+                </a>
               </p>
             </div>
           </div>
