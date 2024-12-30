@@ -176,7 +176,7 @@ const page = () => {
               </div>
               <div className="col-xl-6">
                 <img
-                  src="img/inner-pages/supermarkets.png"
+                  src="img/inner-pages/chess.jpg"
                   alt="img"
                   style={{ width: "100%" }}
                   className="mil-up"
