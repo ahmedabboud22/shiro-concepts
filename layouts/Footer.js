@@ -133,6 +133,7 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsFacebook size={20} fill="white" />
@@ -143,6 +144,7 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsInstagram size={20} fill="white" />
@@ -153,6 +155,7 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsLinkedin size={20} fill="white" />
@@ -163,6 +166,7 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsTwitter size={20} fill="white" />
@@ -292,6 +296,7 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsFacebook size={20} fill="white" />
@@ -302,6 +307,7 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsInstagram size={20} fill="white" />
@@ -312,6 +318,7 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsLinkedin size={20} fill="white" />
@@ -322,6 +329,7 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsTwitter size={20} fill="white" />
@@ -452,6 +460,7 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsFacebook size={20} fill="white" />
@@ -462,6 +471,7 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsInstagram size={20} fill="white" />
@@ -472,6 +482,7 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsLinkedin size={20} fill="white" />
@@ -482,6 +493,7 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
+                    marginTop: "15px",
                   }}
                 >
                   <BsTwitter size={20} fill="white" />
