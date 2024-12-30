@@ -1,15 +1,48 @@
 import { PageBanner } from "@/components/Banner";
-import { CallToAction2 } from "@/components/CallToAction";
 import PlaxLayout from "@/layouts/PlaxLayout";
 import Link from "next/link";
 const page = () => {
   return (
     <PlaxLayout bg={false}>
-      <PageBanner
-        title="Adapted to your needs, discover what we have"
-        pageName="Services"
-      />
-
+      <div
+        className="mil-banner mil-banner-inner mil-dissolve"
+        style={{ backgroundColor: " #162341" }}
+      >
+        <div className="container" style={{ backgroundColor: " #162341" }}>
+          <div className="row align-items-center justify-content-center">
+            <div className="col-xl-8">
+              <div className="mil-banner-text mil-text-center">
+                <div
+                  className="mil-text-m mil-mb-20"
+                  style={{
+                    fontFamily: "neue-heading",
+                    letterSpacing: "1px",
+                  }}
+                >
+                  Services
+                </div>
+                <h1
+                  className="mil-mb-60"
+                  style={{
+                    fontFamily: "neue-heading",
+                    letterSpacing: "1px",
+                  }}
+                >
+                  Adapted To Your Needs, Discover What We Have{" "}
+                </h1>
+                <ul className="mil-breadcrumbs mil-center">
+                  <li>
+                    <Link href="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link href="services">Services</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* banner end */}
       {/* service */}
       <div
@@ -19,14 +52,28 @@ const page = () => {
         <div className="container" style={{ backgroundColor: "#162341" }}>
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-5 mil-mb-80">
-              <h2 className="mil-mb-30 mil-up">Idea Development </h2>
-              <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+              <h2
+                className="mil-mb-30 mil-up"
+                style={{
+                  fontFamily: "neue-heading",
+                  letterSpacing: "1px",
+                }}
+              >
+                Idea Development{" "}
+              </h2>
+              <p
+                className="mil-text-m mil-soft mil-mb-30 mil-up"
+                style={{
+                  fontFamily: "neue-text",
+                  letterSpacing: "2px",
+                }}
+              >
                 Transforming innovative concepts into practical and profitable
                 business models.
               </p>
               <div className="mil-up">
                 <Link href="/contact" className="mil-btn mil-m mil-add-arrow">
-                  Get Quote
+                  GET QUOTE
                 </Link>
               </div>
             </div>
@@ -53,14 +100,28 @@ const page = () => {
         <div className="container" style={{ backgroundColor: "#162341" }}>
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
             <div className="col-xl-5 mil-mb-80">
-              <h2 className="mil-mb-30 mil-up">Market Analysis </h2>
-              <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+              <h2
+                className="mil-mb-30 mil-up"
+                style={{
+                  fontFamily: "neue-heading",
+                  letterSpacing: "1px",
+                }}
+              >
+                Market Analysis{" "}
+              </h2>
+              <p
+                className="mil-text-m mil-soft mil-mb-30 mil-up"
+                style={{
+                  fontFamily: "neue-text",
+                  letterSpacing: "2px",
+                }}
+              >
                 Conducting in-depth research to identify opportunities and
                 trends within target markets.
               </p>
               <div className="mil-up">
                 <Link href="/contact" className="mil-btn mil-m mil-add-arrow">
-                  Get Quote
+                  GET QUOTE
                 </Link>
               </div>
             </div>
@@ -88,16 +149,28 @@ const page = () => {
           <div className="mil-out-frame mil-out-top mil-visible">
             <div className="row flex-sm-row-reverse justify-content-between align-items-center">
               <div className="col-xl-5 mil-mb-60">
-                <h2 className="mil-mb-30 mil-light mil-up">
-                  Supermarkets and Hypermarkets{" "}
+                <h2
+                  className="mil-mb-30 mil-light mil-up"
+                  style={{
+                    fontFamily: "neue-heading",
+                    letterSpacing: "1px",
+                  }}
+                >
+                  Brand Positioning{" "}
                 </h2>
-                <p className="mil-text-l mil-pale-2 mil-up mil-mb-60">
-                  Expanding retail horizons with strategic investments in
-                  essential services.
+                <p
+                  className="mil-text-l mil-pale-2 mil-up mil-mb-60"
+                  style={{
+                    fontFamily: "neue-text",
+                    letterSpacing: "2px",
+                  }}
+                >
+                  Building strong, recognizable brands that resonate with target
+                  audiences.
                 </p>
                 <div className="mil-up">
                   <Link href="contact" className="mil-btn mil-m mil-add-arrow">
-                    Get Quote
+                    GET QUOTE
                   </Link>
                 </div>
               </div>
@@ -126,14 +199,28 @@ const page = () => {
             style={{ backgroundColor: "#162341" }}
           >
             <div className="col-xl-5 mil-mb-80">
-              <h2 className="mil-mb-30 mil-up">Concept Creation</h2>
-              <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+              <h2
+                className="mil-mb-30 mil-up"
+                style={{
+                  fontFamily: "neue-heading",
+                  letterSpacing: "1px",
+                }}
+              >
+                Concept Creation
+              </h2>
+              <p
+                className="mil-text-m mil-soft mil-mb-30 mil-up"
+                style={{
+                  fontFamily: "neue-text",
+                  letterSpacing: "2px",
+                }}
+              >
                 Developing the ideas into reality and detailed, then link it
                 with the brand design and storytelling.
               </p>
               <div className="mil-up">
                 <Link href="/contact" className="mil-btn mil-m mil-add-arrow">
-                  Get Quote
+                  GET QUOTE
                 </Link>
               </div>
             </div>
@@ -160,14 +247,28 @@ const page = () => {
         <div className="container" style={{ backgroundColor: "#162341" }}>
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
             <div className="col-xl-5 mil-mb-80">
-              <h2 className="mil-mb-30 mil-up">Project Management</h2>
-              <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+              <h2
+                className="mil-mb-30 mil-up"
+                style={{
+                  fontFamily: "neue-heading",
+                  letterSpacing: "1px",
+                }}
+              >
+                Project Management
+              </h2>
+              <p
+                className="mil-text-m mil-soft mil-mb-30 mil-up"
+                style={{
+                  fontFamily: "neue-text",
+                  letterSpacing: "2px",
+                }}
+              >
                 Overseeing projects from inception to completion, ensuring
                 seamless execution.
               </p>
               <div className="mil-up">
                 <Link href="/contact" className="mil-btn mil-m mil-add-arrow">
-                  Get Quote
+                  GET QUOTE
                 </Link>
               </div>
             </div>
@@ -187,20 +288,120 @@ const page = () => {
       </div>
       {/* service end */}
 
+      {/* about */}
+      <div
+        className="mil-cta"
+        style={{ backgroundColor: " #162341", marginBottom: "4.3rem" }}
+      >
+        <div className="container">
+          <div className="mil-out-frame mil-out-top mil-visible">
+            <div className="row flex-sm-row-reverse justify-content-between align-items-center">
+              <div className="col-xl-5 mil-mb-60">
+                <h2
+                  className="mil-mb-30 mil-light mil-up"
+                  style={{
+                    fontFamily: "neue-heading",
+                    letterSpacing: "1px",
+                  }}
+                >
+                  Growth Optimization{" "}
+                </h2>
+                <p
+                  className="mil-text-l mil-pale-2 mil-up mil-mb-60"
+                  style={{
+                    fontFamily: "neue-text",
+                    letterSpacing: "2px",
+                  }}
+                >
+                  Developing strategies to scale businesses and maximize
+                  returns.
+                </p>
+                <div className="mil-up">
+                  <Link href="contact" className="mil-btn mil-m mil-add-arrow">
+                    GET QUOTE
+                  </Link>
+                </div>
+              </div>
+              <div className="col-xl-6">
+                <img
+                  src="img/inner-pages/supermarkets.png"
+                  alt="img"
+                  style={{ width: "100%" }}
+                  className="mil-up"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* about end */}
+
+      {/* service */}
+      <div
+        className="mil-features mil-p-0-80"
+        style={{ backgroundColor: "#162341" }}
+      >
+        <div className="container" style={{ backgroundColor: "#162341" }}>
+          <div
+            className="row justify-content-between align-items-center"
+            style={{ backgroundColor: "#162341" }}
+          >
+            <div className="col-xl-5 mil-mb-80">
+              <h2
+                className="mil-mb-30 mil-up"
+                style={{
+                  fontFamily: "neue-heading",
+                  letterSpacing: "1px",
+                }}
+              >
+                Operational Excellence
+              </h2>
+              <p
+                className="mil-text-m mil-soft mil-mb-30 mil-up"
+                style={{
+                  fontFamily: "neue-text",
+                  letterSpacing: "2px",
+                }}
+              >
+                Providing ongoing management support to enhance efficiency and
+                sustainability.
+              </p>
+              <div className="mil-up">
+                <Link href="/contact" className="mil-btn mil-m mil-add-arrow">
+                  GET QUOTE
+                </Link>
+              </div>
+            </div>
+            <div className="col-xl-6 mil-mb-80">
+              <div className="mil-image-frame mil-up">
+                <img
+                  src="img/inner-pages/5.png"
+                  alt="image"
+                  className="mil-scale-img"
+                  data-value-1={1}
+                  data-value-2="1.2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* service end */}
+
       {/* call to action */}
-      <div className="mil-cta mil-up" style={{ backgroundColor: "#162341" }}>
+      {/* <div className="mil-cta mil-up" style={{ backgroundColor: "#162341" }}>
         <div className="container">
           <div
             className="mil-out-frame mil-p-160-100"
-            style={{ backgroundColor: "#0b121f" }}
+            style={{ backgroundColor: "#0b121f", marginBottom: "5rem" }}
           >
             <div className="row justify-content-center mil-text-center">
               <div className="col-xl-8 mil-mb-80-adaptive-30">
-                <h2 className="mil-up">Our Target Markets Include</h2>
+                <h2 className="mil-up">We Have More Than That !</h2>
               </div>
             </div>
             <div className="row">
-              <div className="col-xl-4 mil-mb-60">
+              <div className="col-xl-6 mil-mb-60">
                 <div className="mil-icon-box">
                   <div className="mil-mb-30 mil-up">
                     <svg
@@ -222,15 +423,23 @@ const page = () => {
                       </g>
                     </svg>
                   </div>
-                  <h5 className="mil-mb-20 mil-up">Food and Beverage</h5>
+                  <h5 className="mil-mb-20 mil-up">Growth Optimization</h5>
                   <p className="mil-text-m mil-soft mil-up">
-                    From unique cafes to high-end restaurants, we invest in
-                    creating standout dining experiences
+                    Developing strategies to scale businesses and maximize
+                    returns
                   </p>
                 </div>
               </div>
-              <div className="col-xl-4 mil-mb-60">
-                <div className="mil-icon-box">
+              <div className="col-xl-6 mil-mb-60">
+                <div
+                  className="mil-icon-box"
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "right",
+                    alignItems: "flex-end",
+                  }}
+                >
                   <div className="mil-mb-30 mil-up">
                     <svg
                       id="fi_12678880"
@@ -247,14 +456,21 @@ const page = () => {
                       <circle cx="37.17" cy="29.17" r="1"></circle>
                     </svg>
                   </div>
-                  <h5 className="mil-mb-20 mil-up">Fashion Retail </h5>
-                  <p className="mil-text-m mil-soft mil-up">
-                    Supporting innovative brands and retail ventures to thrive
-                    in competitive markets
+                  <h5
+                    className="mil-mb-20 mil-up"
+                    style={{ textAlign: "right" }}
+                  >
+                    Operational Excellence
+                  </h5>
+                  <p
+                    className="mil-text-m mil-soft mil-up"
+                    style={{ textAlign: "right" }}
+                  >
+                    Providing ongoing management support to enhance efficiency
                   </p>
                 </div>
-              </div>
-              <div className="col-xl-4 mil-mb-60">
+              </div> */}
+      {/* <div className="col-xl-4 mil-mb-60">
                 <div className="mil-icon-box">
                   {" "}
                   <div className="mil-mb-30 mil-up">
@@ -276,14 +492,14 @@ const page = () => {
                     and the broader motor industry
                   </p>
                 </div>
-              </div>
-            </div>
+              </div> */}
+      {/* </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* call to action end */}
       {/* quote */}
-      <div className="mil-quote mil-p-160-130">
+      {/* <div className="mil-quote mil-p-160-130">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-10">
@@ -340,7 +556,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* quote end */}
     </PlaxLayout>
   );

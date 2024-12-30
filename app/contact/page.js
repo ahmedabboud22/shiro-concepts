@@ -1,15 +1,52 @@
 import { PageBanner } from "@/components/Banner";
-import { CallToAction2 } from "@/components/CallToAction";
 import PlaxLayout from "@/layouts/PlaxLayout";
+import Link from "next/link";
+
 const page = () => {
   return (
     <PlaxLayout bg={false}>
-      <PageBanner
-        pageName="Contact us"
-        title="Contact us to start your journey toward success."
-      />
+      <div
+        className="mil-banner mil-banner-inner mil-dissolve"
+        style={{ backgroundColor: " #162341" }}
+      >
+        <div className="container" style={{ backgroundColor: " #162341" }}>
+          <div className="row align-items-center justify-content-center">
+            <div className="col-xl-8">
+              <div className="mil-banner-text mil-text-center">
+                <div
+                  className="mil-text-m mil-mb-20"
+                  style={{
+                    fontFamily: "neue-heading",
+                    letterSpacing: "1px",
+                  }}
+                >
+                  Contact Us
+                </div>
+                <h1
+                  className="mil-mb-60"
+                  style={{
+                    fontFamily: "neue-heading",
+                    letterSpacing: "1px",
+                  }}
+                >
+                  Contact Us To Start Your Journey Toward Success{" "}
+                </h1>
+                <ul className="mil-breadcrumbs mil-center">
+                  <li>
+                    <Link href="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link href="contact">Contact Us</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* contact */}
+
       <div
         className="mil-blog-list mil-p-0-160"
         style={{ backgroundColor: "#162341" }}
@@ -19,7 +56,17 @@ const page = () => {
             className="row justify-content-center"
             style={{ backgroundColor: "#162341" }}
           >
+            {" "}
             <div className="col-xl-9" style={{ backgroundColor: "#162341" }}>
+              <p
+                className="mil-text-m mil-soft mil-mb-60 mil-up"
+                style={{ fontFamily: "neue-text", letterSpacing: "2px" }}
+              >
+                We are here to assist you with your investment goals and
+                inquiries. Whether you are looking for tailored <br />
+                investment solutions, expert advice, or have questions about our
+                services, our team is ready to support you.
+              </p>
               <form>
                 <div className="row" style={{ backgroundColor: "#162341" }}>
                   <div className="col-md-6 mil-mb-30">
@@ -72,13 +119,23 @@ const page = () => {
                     />
                     <label htmlFor="checkbox" />
                   </div>
-                  <p className="mil-text-xs mil-soft">
+                  <p
+                    className="mil-text-xs mil-soft"
+                    style={{ fontFamily: "neue-text", letterSpacing: "2px" }}
+                  >
                     I agree that the data submitted, collected and stored *
                   </p>
                 </div>
                 <div className="mil-up">
-                  <button type="submit" className="mil-btn mil-m">
-                    Send Message
+                  <button
+                    type="submit"
+                    className="mil-btn mil-m"
+                    style={{
+                      fontFamily: "neue-heading",
+                      letterSpacing: "1.5px",
+                    }}
+                  >
+                    SEND MESSAGE
                   </button>
                 </div>
               </form>
@@ -86,20 +143,44 @@ const page = () => {
                 <h5>Thanks, your message is sent successfully.</h5>
               </div>
               <div className="mil-p-160-0">
-                <h5 className="mil-mb-30 mil-up">
+                <h5
+                  className="mil-mb-30 mil-up"
+                  style={{
+                    fontFamily: "neue-heading",
+                    letterSpacing: "1.5px",
+                  }}
+                >
                   We are available on the following channels:
                 </h5>
-                <p className="mil-text-m mil-soft mil-mb-10 mil-up">
+                {/* <p className="mil-text-m mil-soft mil-mb-10 mil-up">
                   Address: XXX XXX XXX, +971XXXXXX Dubai, UAE
+                </p> */}
+                <p
+                  className="mil-text-m mil-soft mil-mb-10 mil-up"
+                  style={{
+                    fontFamily: "neue-text",
+                    letterSpacing: "1.5px",
+                  }}
+                >
+                  Mobile No: +971 52 795 5078
                 </p>
-                <p className="mil-text-m mil-soft mil-mb-10 mil-up">
-                  Telephone: +971 (123) 456-7891
+                <p
+                  className="mil-text-m mil-soft mil-mb-10 mil-up"
+                  style={{
+                    fontFamily: "neue-text",
+                    letterSpacing: "1.5px",
+                  }}
+                >
+                  Phone: +971 (0) 4 512 6800
                 </p>
-                <p className="mil-text-m mil-soft mil-mb-10 mil-up">
-                  Fax: +971 (123) 456-7891
-                </p>
-                <p className="mil-text-m mil-soft mil-up">
-                  Email: support@shiro.com
+                <p
+                  className="mil-text-m mil-soft mil-up"
+                  style={{
+                    fontFamily: "neue-text",
+                    letterSpacing: "1.5px",
+                  }}
+                >
+                  Email: info@shiroinvestment.com
                 </p>
               </div>
             </div>
