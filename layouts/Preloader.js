@@ -8,7 +8,7 @@ const Preloader = () => {
     // تعيين مؤقت لإخفاء المكون بعد 1.5 ثانية
     const timeout = setTimeout(() => {
       setIsVisible(false); // إخفاء المكون
-    }, 2000);
+    }, 2100);
 
     return () => clearTimeout(timeout); // تنظيف المؤقت عند إلغاء المكون
   }, []);
