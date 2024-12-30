@@ -193,6 +193,7 @@ const page = () => {
                     style={{
                       fontFamily: "neue-text",
                       letterSpacing: "1.5px",
+                      color: "#162341",
                     }}
                   >
                     We don’t just follow trends; we craft them. Every project
@@ -237,6 +238,7 @@ const page = () => {
                     style={{
                       fontFamily: "neue-text",
                       letterSpacing: "1.5px",
+                      color: "#162341",
                     }}
                   >
                     From initial concept creation to execution, Shiro’s hands-on
@@ -279,6 +281,7 @@ const page = () => {
                       fontFamily: "neue-text",
                       letterSpacing: "1.5px",
                       marginBottom: "1.5rem",
+                      color: "#162341",
                     }}
                   >
                     We partner closely with visionaries, bringing ideas to life
