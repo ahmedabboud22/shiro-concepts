@@ -619,6 +619,22 @@ frames
   margin-bottom: 300px;
 }
 @media screen and (max-width: 1200px) {
+  .mil-out-frame {
+    padding-left: 100px;
+  }
+  .mil-out-frame.mil-out-top:before {
+    content: "";
+    position: absolute;
+    z-index: 999;
+    top: -80px;
+    left: 0;
+    background-color: #0b121f;
+    height: 81px;
+    width: 100%;
+    display: block;
+    border-radius: 0 0;
+  }
+
   .mil-out-frame.mil-out-image-fix {
     padding-bottom: 80px;
     margin-bottom: 80px;
