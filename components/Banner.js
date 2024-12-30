@@ -3,20 +3,34 @@ const Banner = ({
   title = "Your Ally for Financial Control",
   subTitle = "Send money globally with Plax",
   img = "img/home-2/1.png",
-  style = { maxWidth: "135%", transform: "translateX(5%)" },
+  style = {
+    maxWidth: "135%",
+    transform: "translateX(5%)",
+    fontFamily: "neue-heading",
+    letterSpacing: "10px",
+  },
   dark = false,
 }) => {
   return (
     <div
       className={`mil-banner mil-dissolve mil-dark-2"`}
-      style={{ backgroundColor: "#162341" }}
+      style={{
+        backgroundColor: "#162341",
+        fontFamily: "neue-heading",
+        letterSpacing: "1px",
+      }}
     >
       <div className="container" style={{ backgroundColor: "#162341" }}>
         <div className="row align-items-center">
           <div className="col-xl-6">
             <div className="mil-banner-text">
               <h6 className="mil-text-gradient-2 mil-mb-20">{subTitle}</h6>
-              <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
+              <h1
+                className="mil-display mil-text-gradient-3 mil-mb-60"
+                style={{
+                  fontFamily: "neue-heading",
+                }}
+              >
                 {title}
               </h1>
               <div className="mil-buttons-frame">
