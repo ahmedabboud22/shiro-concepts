@@ -91,6 +91,7 @@ const page = () => {
                     style={{
                       fontFamily: "neue-heading",
                       letterSpacing: "1.5px",
+                      color: "#d2b488",
                     }}
                   >
                     Who We Are ?
@@ -357,6 +358,7 @@ const page = () => {
                   style={{
                     fontFamily: "neue-heading",
                     letterSpacing: "1.5px",
+                    color: "#d2b488",
                   }}
                 >
                   Target Market and Industry Focus{" "}
@@ -521,6 +523,7 @@ const page = () => {
                     style={{
                       fontFamily: "neue-heading",
                       letterSpacing: "3px",
+                      color: "#d2b488",
                     }}
                   >
                     Our Philosophy{" "}
