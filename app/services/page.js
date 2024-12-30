@@ -375,7 +375,7 @@ const page = () => {
             <div className="col-xl-6 mil-mb-80">
               <div className="mil-image-frame mil-up">
                 <img
-                  src="img/inner-pages/5.png"
+                  src="img/inner-pages/operational.jpg"
                   alt="image"
                   className="mil-scale-img"
                   data-value-1={1}
