@@ -1,13 +1,3 @@
-/* -------------------------------------------
-
-Name: 		Plax
-Version:    1.0
-Developer:	Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
-
-p.s. I am available for Freelance hire (UI design, web development). email: miller.themes@gmail.com
-
-------------------------------------------- */
 /*--------------------------------------------
 
 1. common
@@ -27,19 +17,13 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
     - banner
     - content list
     - brands
-    - facts
-    - testimonials
     - accordion
     - illustrations
     - steps
     - icon box
-    - team
-    - vacancie
-    - blog
     - comments
     - form
     - text lists
-    - price
     - footer
 
 --------------------------------------------*/
@@ -64,7 +48,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Switzer-Variable";
+  font-family: "neue-text";
   font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
@@ -97,6 +81,7 @@ typography
 ------------------------------------------- */
 * {
   font-family: neue-heading;
+  letter-spacing: "1.5px" !important;
   color: #d2b488;
 }
 
@@ -113,9 +98,11 @@ h6,
 .h5,
 .h6 {
   font-weight: 600;
-  /* font-family: "Switzer-Variable"; */
+  /* font-family: neue-heading; */
   line-height: 1.3;
-  letter-spacing: -0.04em;
+  /* letter-spacing: -0.04em; */
+  font-family: "neue-heading";
+  letter-spacing: "1.5px" !important;
 }
 h1 span,
 h2 span,
@@ -130,7 +117,7 @@ h6 span,
 .h5 span,
 .h6 span {
   font-weight: 600;
-  /* font-family: "Switzer-Variable"; */
+  /* font-family: neue-heading; */
   line-height: 1.3;
   letter-spacing: -0.04em;
 }
@@ -196,6 +183,7 @@ h6,
 
 .mil-text-s {
   font-size: 18px;
+  color: #162341;
 }
 @media screen and (max-width: 992px) {
   .mil-text-s {
@@ -298,7 +286,7 @@ blockquote.mil-with-bg {
   padding: 60px 30px;
 }
 blockquote.mil-with-bg-2 {
-  background: linear-gradient(0deg, #b3d4d8 0%, #deece8 100%);
+  background: linear-gradient(0deg, #1d2d51 0%, #deece8 100%);
   border-radius: 0px;
   padding: 60px 30px;
 }
@@ -322,7 +310,7 @@ blockquote svg.mil-accent path {
   fill: #111b30;
 }
 blockquote.mil-dark {
-  background: linear-gradient(0deg, #224d50 0%, #1c6360 100%);
+  background: linear-gradient(0deg, #162341 0%, #111b30 100%);
 }
 
 @media (max-width: 1200px) {
@@ -353,11 +341,7 @@ blockquote.mil-dark {
 
 @supports (--css: variables) {
   .mil-text-gradient {
-    background: linear-gradient(
-      to right,
-      rgb(160, 205, 205),
-      rgb(242, 250, 250)
-    );
+    background: linear-gradient(to right, #111b30, rgb(242, 250, 250));
     color: transparent;
     background-clip: text;
   }
@@ -412,10 +396,10 @@ breadcrumbs
 .mil-breadcrumbs li:after {
   content: "|";
   margin: 0 15px;
-  color: rgb(160, 205, 205);
+  color: #d1b284;
 }
 .mil-breadcrumbs li a {
-  font-family: "Switzer-Variable";
+  font-family: neue-heading;
   font-size: 14px;
   font-weight: 500;
 }
@@ -423,7 +407,7 @@ breadcrumbs
   color: #111b30;
 }
 .mil-breadcrumbs li:last-child {
-  opacity: 0.4;
+  opacity: 0.7;
   cursor: not-allowed;
 }
 .mil-breadcrumbs li:last-child a {
@@ -451,7 +435,8 @@ buttons
   white-space: nowrap;
   background-color: #111b30;
   border-radius: 0px;
-  font-family: "Switzer-Variable";
+  font-family: neue-heading;
+  letter-spacing: 1.5px;
   font-weight: 600;
   color: rgb(255, 255, 255);
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
@@ -566,7 +551,7 @@ buttons
 }
 
 .mil-link {
-  font-family: "Switzer-Variable";
+  font-family: neue-heading;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: -2%;
@@ -971,7 +956,7 @@ top panel
 .mil-top-panel.mil-active {
   background-color: rgb(255, 255, 255);
   height: 100px;
-  box-shadow: 0 5px 10px rgba(13, 81, 82, 0.05);
+  box-shadow: 0 50px 10px rgba(13, 81, 82, 0.05);
 }
 @media (max-width: 1200px) {
   .mil-top-panel {
@@ -1004,7 +989,7 @@ top menu
   height: 48px;
   padding: 0 15px;
   color: rgb(137, 141, 150);
-  font-family: "Switzer-Variable";
+  font-family: neue-heading;
   font-weight: 600;
   letter-spacing: -2%;
   z-index: 1;
@@ -1019,12 +1004,12 @@ top menu
 .mil-top-menu ul li a:before {
   content: "";
   opacity: 0;
-  height: 1px;
+  height: 2px;
   position: absolute;
   bottom: 0;
-  left: 15px;
-  right: 15px;
-  background: #111b30;
+  left: 12px;
+  right: 12px;
+  background: #d1b284;
 }
 .mil-top-menu ul li a:hover {
   color: #111b30;
@@ -1078,6 +1063,7 @@ top menu
 .mil-top-menu ul li ul li a:hover {
   background-color: rgb(242, 250, 250);
 }
+
 .mil-top-menu ul li:hover ul {
   pointer-events: all;
   opacity: 1;
@@ -1124,10 +1110,10 @@ top menu
 .mil-dark-2 .mil-top-menu ul li a {
   background-color: transparent;
   color: rgb(242, 250, 250);
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .mil-dark-2 .mil-top-menu ul li.mil-active a {
-  color: rgb(242, 250, 250);
+  color: #d1b284;
   opacity: 1;
 }
 .mil-dark-2 .mil-top-menu ul li ul {
@@ -1361,7 +1347,7 @@ banner
   }
   .mil-banner .mil-banner-img.mil-banner-img-out img {
     transform: none;
-    width: 110% !important;
+    width: 86% !important;
     float: left;
   }
 }
@@ -1424,7 +1410,7 @@ banner
 @media screen and (max-width: 480px) {
   .mil-banner .mil-banner-img img {
     position: relative;
-    right: 32.5%;
+    right: 22.5%;
     top: 5rem;
   }
 }
@@ -1587,95 +1573,8 @@ brands
 
 /* -------------------------------------------
 
-facts
 
-------------------------------------------- */
-.mil-fact-bg {
-  padding: 60px;
-  border-radius: 0px;
-  background: #dbc39f;
-}
 
-/* -------------------------------------------
-
-testimonials
-
-------------------------------------------- */
-.mil-testi-pagination {
-  margin-top: 60px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.mil-testi-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: rgb(137, 141, 150);
-  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
-}
-.mil-testi-pagination
-  .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #111b30;
-}
-
-.mil-slider-nav-1 {
-  position: absolute;
-  z-index: 2;
-  top: 27%;
-  left: -132px;
-  display: flex;
-  justify-content: space-between;
-  width: calc(100% + 144px + 120px);
-}
-
-.mil-testi-prev {
-  cursor: pointer;
-  text-align: center;
-  background-color: #111b30;
-  height: 72px;
-  width: 72px;
-  border-radius: 0;
-  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.mil-testi-prev:after {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f054";
-  transform: rotate(180deg);
-  color: rgb(255, 255, 255);
-}
-.mil-testi-prev.swiper-button-disabled {
-  background-color: rgba(196, 196, 196, 0.2);
-  cursor: not-allowed;
-}
-
-.mil-testi-next {
-  cursor: pointer;
-  text-align: center;
-  background-color: #111b30;
-  height: 72px;
-  width: 72px;
-  border-radius: 0;
-  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.mil-testi-next:after {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f054";
-  color: rgb(255, 255, 255);
-}
-.mil-testi-next.swiper-button-disabled {
-  background-color: rgba(196, 196, 196, 0.2);
-  cursor: not-allowed;
-}
-
-/* -------------------------------------------
 
 accordion
 
@@ -2093,316 +1992,6 @@ icon box
 
 /* -------------------------------------------
 
-team
-
-------------------------------------------- */
-.mil-team-card {
-  text-align: center;
-}
-.mil-team-card .mil-portrait {
-  position: relative;
-  padding-bottom: 130%;
-  border-radius: 0px;
-  overflow: hidden;
-}
-.mil-team-card .mil-portrait img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  object-position: center;
-}
-
-/* -------------------------------------------
-
-vacancie
-
-------------------------------------------- */
-.mil-vacancie {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px 100px;
-  transform: translateX(-100px);
-  background: rgb(242, 250, 250);
-  width: calc(100% + 200px);
-  border-radius: 0px;
-}
-.mil-vacancie:after {
-  content: "";
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #dbc39f;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
-}
-.mil-vacancie .mil-left {
-  display: block;
-  z-index: 2;
-  padding-right: 60px;
-}
-.mil-vacancie .mil-right {
-  display: flex;
-  justify-content: flex-end;
-  z-index: 2;
-}
-.mil-vacancie .mil-tags {
-  font-size: 14px;
-  display: flex;
-}
-.mil-vacancie .mil-tags li {
-  list-style-type: none;
-  margin-right: 30px;
-  color: rgb(137, 141, 150);
-}
-.mil-vacancie:hover:after {
-  opacity: 1;
-}
-.mil-vacancie:hover h4 {
-  color: rgb(242, 250, 250);
-}
-@media screen and (max-width: 992px) {
-  .mil-vacancie {
-    transform: translateX(0);
-    width: 100%;
-    padding: 60px;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .mil-vacancie .mil-left {
-    margin-bottom: 30px;
-    padding-right: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  .mil-vacancie .mil-tags {
-    flex-direction: column;
-  }
-  .mil-vacancie .mil-tags li {
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-}
-
-/* -------------------------------------------
-
-blog
-
-------------------------------------------- */
-.mil-blog-card {
-  display: block;
-  background-color: rgb(242, 250, 250);
-  border-radius: 0px;
-}
-.mil-blog-card .mil-card-cover {
-  position: relative;
-  overflow: hidden;
-  overflow: hidden;
-  border-radius: 0px;
-  padding-bottom: 65%;
-}
-.mil-blog-card .mil-card-cover img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-.mil-blog-card .mil-descr {
-  padding: 30px 30px 40px;
-}
-
-.mil-pub-cover {
-  width: 100%;
-  padding-bottom: 50%;
-  position: relative;
-  border-radius: 0px;
-  overflow: hidden;
-}
-.mil-pub-cover img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  object-position: center;
-}
-.mil-pub-cover.mil-inner {
-  padding-bottom: 65%;
-}
-@media screen and (max-width: 768px) {
-  .mil-pub-cover {
-    padding-bottom: 65%;
-  }
-}
-
-.mil-pup-tags {
-  display: flex;
-  padding: 0;
-}
-.mil-pup-tags li {
-  list-style-type: none;
-  margin-right: 10px;
-}
-.mil-pup-tags li:last-child {
-  margin-right: 0;
-}
-.mil-pup-tags li a {
-  font-size: 14px;
-  display: block;
-  padding: 6px 30px;
-  border-radius: 0px;
-  border: solid 1px rgb(196, 196, 196);
-  color: rgb(196, 196, 196);
-  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
-}
-.mil-pup-tags li a:hover {
-  color: #dbc39f;
-  border: solid 1px #dbc39f;
-}
-@media screen and (max-width: 768px) {
-  .mil-pup-tags {
-    flex-direction: column;
-  }
-  .mil-pup-tags li {
-    margin-bottom: 15px;
-    margin-right: 0;
-  }
-  .mil-pup-tags li:last-child {
-    margin-bottom: 0;
-  }
-  .mil-pup-tags li a {
-    text-align: center;
-  }
-}
-
-.mil-share-frame {
-  display: flex;
-  align-items: center;
-}
-.mil-share-frame h6 {
-  margin-right: 15px;
-}
-@media screen and (max-width: 768px) {
-  .mil-share-frame {
-    flex-direction: column;
-  }
-  .mil-share-frame h6 {
-    margin-bottom: 15px;
-    margin-right: 0;
-  }
-}
-
-.mil-pup-share {
-  display: flex;
-  padding: 0;
-}
-.mil-pup-share li {
-  list-style-type: none;
-  margin-right: 10px;
-}
-.mil-pup-share li:last-child {
-  margin-right: 0;
-}
-.mil-pup-share li a {
-  font-size: 14px;
-  display: block;
-  padding: 6px 15px;
-  border-radius: 0px;
-  background-color: rgb(242, 250, 250);
-  color: rgb(196, 196, 196);
-  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
-}
-.mil-pup-share li a i {
-  color: rgb(196, 196, 196);
-  margin-right: 10px;
-}
-.mil-pup-share li a:hover {
-  background-color: #dbc39f;
-  color: rgb(255, 255, 255);
-}
-.mil-pup-share li a:hover i {
-  color: rgb(255, 255, 255);
-}
-
-.mil-next-post {
-  padding: 60px 0;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  border-top: solid 1px rgb(196, 196, 196);
-  border-bottom: solid 1px rgb(196, 196, 196);
-}
-.mil-next-post .mil-descr {
-  text-align: right;
-  padding-right: 60px;
-}
-.mil-next-post .mil-cover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-radius: 0;
-  overflow: hidden;
-}
-.mil-next-post .mil-cover img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
-}
-.mil-next-post .mil-cover i {
-  background-color: #111b30;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  border-radius: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transform: scale(0.5);
-  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
-}
-.mil-next-post .mil-cover:hover img {
-  transform: scale(1.1);
-}
-.mil-next-post .mil-cover:hover i {
-  transform: scale(1);
-  opacity: 1;
-}
-@media screen and (max-width: 768px) {
-  .mil-next-post {
-    flex-direction: column;
-  }
-  .mil-next-post .mil-descr {
-    text-align: center;
-    margin-bottom: 30px;
-    padding: 0;
-  }
-}
-
-/* -------------------------------------------
-
 comments
 
 ------------------------------------------- */
@@ -2440,7 +2029,7 @@ comments
   right: 0;
   font-weight: 600;
   font-size: 14px;
-  font-family: "Switzer-Variable";
+  font-family: neue-heading;
   color: #111b30;
 }
 .mil-comments li ul {
@@ -2471,14 +2060,14 @@ form
   border: solid 1px rgba(137, 141, 150, 0.2);
   font-weight: 600;
   font-size: 14px;
-  font-family: "Switzer-Variable";
+  font-family: neue-heading;
   border-radius: 0px;
   padding: 0 30px;
 }
 .mil-input::placeholder {
   font-weight: 600;
   font-size: 14px;
-  font-family: "Switzer-Variable";
+  font-family: neue-heading;
 }
 
 textarea {
@@ -2490,7 +2079,7 @@ textarea {
 textarea::placeholder {
   font-weight: 600;
   font-size: 14px;
-  font-family: "Switzer-Variable";
+  font-family: neue-heading;
 }
 
 .mil-checkbox-frame {
@@ -2608,79 +2197,6 @@ text list
 
 /* -------------------------------------------
 
-price
-
-------------------------------------------- */
-.mil-switcher {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  background-color: #e7e5e0;
-  border: solid 5px #e7e5e0;
-  width: 245px;
-  padding: 0;
-  border-radius: 0px;
-}
-.mil-switcher:after {
-  content: "-30%";
-  background: linear-gradient(180deg, #111b30 0%, #1d2d51 100%);
-  padding: 10px 15px;
-  border-radius: 0px;
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  font-family: "Switzer-Variable";
-  font-size: 12px;
-  font-weight: 600;
-  color: rgb(255, 255, 255);
-}
-.mil-switcher span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  text-align: center;
-  height: 60px;
-  cursor: pointer;
-  color: #fff;
-  border-radius: 0px;
-  font-size: 14px;
-  font-weight: 600;
-  font-family: "Switzer-Variable";
-  margin-right: 5px;
-  transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
-}
-.mil-switcher span:last-child {
-  margin-right: 0;
-}
-.mil-switcher span.mil-active {
-  background-color: #fff;
-  color: #e7e5e0;
-}
-
-.mil-price-card {
-  padding: 60px 30px;
-  text-align: center;
-  border-radius: 0px;
-}
-.mil-price-card .mil-sup-text {
-  font-size: 18px;
-  margin-left: 5px;
-}
-.mil-price-card.mil-featured {
-  background: #dbc39f;
-}
-.mil-price-card li {
-  list-style: none;
-}
-@media screen and (max-width: 768px) {
-  .mil-price-card {
-    background-color: rgba(196, 196, 196, 0.05);
-  }
-}
-
-/* -------------------------------------------
-
 footer
 
 ------------------------------------------- */
@@ -2774,3 +2290,7 @@ footer.mil-footer-dark-2 .mil-footer-bottom {
 } /*# sourceMappingURL=style.css.map */
 
 /*me*/
+
+.mil-cta {
+  background-color: #162341;
+}
