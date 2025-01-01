@@ -1,5 +1,4 @@
 "use client";
-import EmbedPopup from "@/components/EmbedPopup";
 import { plaxUtility } from "@/utility";
 import { Fragment, useEffect } from "react";
 import Footer from "./Footer";
@@ -17,7 +16,6 @@ const PlaxLayout = ({ children, bg, margin, noFooter, dark, footer }) => {
 
   return (
     <Fragment>
-      <EmbedPopup />
       <div
         id="smooth-wrapper"
         className="mil-wrapper"

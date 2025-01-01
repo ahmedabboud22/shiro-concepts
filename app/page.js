@@ -12,7 +12,7 @@ const page = () => {
   return (
     <>
       <Head>
-        <title>Shiro Concepts Investment - The Value Beyond Compare</title>
+        <title>Shiro Concepts Investment</title>
         <meta
           name="description"
           content="Shiro Concepts Investment is a visionary company based in Dubai, specializing in transforming ideas into unique realities and managing them to achieve excellence."
@@ -22,6 +22,12 @@ const page = () => {
           content="Shiro Concepts, Investment, Dubai, Innovative Solutions"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Shiro Concepts Investment" />
+        <meta
+          property="og:description"
+          content="Shiro Concepts Investment is a visionary company based in Dubai, specializing in transforming ideas into unique realities and managing them to achieve excellence."
+        />
       </Head>
       <OrganizationStructuredData />
       <PlaxLayout dark footer={3}>
@@ -32,7 +38,7 @@ const page = () => {
           <div className="container">
             <div className="row align-items-center mil-mb-80">
               <div className="col-xl-5">
-                <div className="mil-banner-text" style={{ zIndex: "100" }}>
+                <div className="mil-banner-text">
                   {" "}
                   {/* <div className="mil-text-l mil-light mil-mb-20">
                     Shiro Concepts Investment
@@ -52,10 +58,6 @@ const page = () => {
                       href="contact"
                       className="mil-btn mil-md mil-add-arrow"
                       aria-label="Link to contact us"
-                      style={{
-                        fontFamily: "neue-heading",
-                        letterSpacing: "1.5px",
-                      }}
                     >
                       GET QUOTE
                     </Link>
@@ -66,13 +68,9 @@ const page = () => {
                 <div className="mil-banner-img mil-banner-img-out">
                   <img
                     src="img/home-5/1.png"
-                    loading="lazy"
                     alt="A company logo that represent a lion"
-                    style={{
-                      width: "3000px",
-                      marginBottom: "1rem",
-                      zIndex: "98",
-                    }}
+                    width="100%"
+                    height="100%"
                   />
                 </div>
               </div>
@@ -81,7 +79,7 @@ const page = () => {
         </div>
         {/* banner end */}
         {/* about */}
-        <div className="mil-cta" style={{ backgroundColor: " #162341" }}>
+        <div className="mil-cta">
           <div className="container">
             <div className="mil-out-frame mil-out-top mil-visible">
               <div className="row flex-sm-row-reverse justify-content-between align-items-center">
@@ -89,20 +87,12 @@ const page = () => {
                   <h2
                     className="mil-mb-30 mil-light mil-up"
                     style={{
-                      fontFamily: "neue-heading",
-                      letterSpacing: "1.5px",
                       color: "#d2b488",
                     }}
                   >
                     Who We Are ?
                   </h2>
-                  <p
-                    className="mil-text-l mil-pale-2 mil-up mil-mb-60"
-                    style={{
-                      fontFamily: "neue-text",
-                      letterSpacing: "1.5px",
-                    }}
-                  >
+                  <p className="mil-text-l mil-pale-2 mil-up mil-mb-60">
                     Shiro Concepts Investment is a visionary company based in
                     Dubai, specializing in transforming ideas into unique
                     realities and managing them to achieve excellence in their
@@ -125,6 +115,8 @@ const page = () => {
                     alt="Promotional image for Shiro Company Investment"
                     style={{ width: "100%" }}
                     className="mil-up"
+                    width="100%"
+                    height="100%"
                   />
                 </div>
               </div>
@@ -139,23 +131,11 @@ const page = () => {
         >
           <div className="container">
             <div className="mil-text-center">
-              <h2
-                className="mil-light mil-mb-30 mil-up"
-                style={{
-                  fontFamily: "neue-heading",
-                  letterSpacing: "1.5px",
-                }}
-              >
+              <h2 className="mil-light mil-mb-30 mil-up">
                 Discover The Reasons <br />
                 To Choose Us
               </h2>
-              <p
-                className="mil-text-l mil-pale-2 mil-mb-60 mil-up"
-                style={{
-                  fontFamily: "neue-text",
-                  letterSpacing: "1.5px",
-                }}
-              >
+              <p className="mil-text-l mil-pale-2 mil-mb-60 mil-up">
                 Here's The Reasons What <br />
                 Sets Shiro Apart
               </p>
@@ -166,7 +146,7 @@ const page = () => {
                   <div className="mil-mb-30 mil-up">
                     <svg
                       id="fi_3159310"
-                      enable-background="new 0 0 512.01 512.01"
+                      enableBackground="new 0 0 512.01 512.01"
                       height="70"
                       viewBox="0 0 512.01 512.01"
                       width="70"
@@ -252,7 +232,7 @@ const page = () => {
                   <div className="mil-mb-30 mil-up">
                     <svg
                       id="fi_12472564"
-                      enable-background="new 0 0 512 512"
+                      enableBackground="new 0 0 512 512"
                       height="70"
                       viewBox="0 0 512 512"
                       width="70"
@@ -378,7 +358,7 @@ const page = () => {
                 <ul className="mil-list-1 mil-accent">
                   <li>
                     <div className="mil-up">
-                      <a href="#." className="mil-up">
+                      <span className="mil-up">
                         <h3
                           className="mil-mb-15 mil-light mil-up"
                           style={{
@@ -399,12 +379,12 @@ const page = () => {
                           <br />
                           we invest in creating standout dining experiences
                         </p>
-                      </a>
+                      </span>
                     </div>
                   </li>
                   <li>
                     <div className="mil-up">
-                      <a href="#." className="mil-up">
+                      <span className="mil-up">
                         <h3
                           className="mil-mb-15 mil-light mil-up"
                           style={{
@@ -425,12 +405,12 @@ const page = () => {
                           <br />
                           ventures to thrive in competitive markets{" "}
                         </p>
-                      </a>
+                      </span>
                     </div>
                   </li>
                   <li>
                     <div className="mil-up">
-                      <a href="#." className="mil-up">
+                      <span className="mil-up">
                         <h3
                           className="mil-mb-15 mil-light mil-up"
                           style={{
@@ -451,12 +431,12 @@ const page = () => {
                           <br />
                           enthusiasts and the broader motor industry
                         </p>
-                      </a>
+                      </span>
                     </div>
                   </li>
                   <li>
                     <div className="mil-up">
-                      <a href="#." className="mil-up">
+                      <span className="mil-up">
                         <h3
                           className="mil-mb-15 mil-light mil-up"
                           style={{
@@ -476,7 +456,7 @@ const page = () => {
                           Expanding retail horizons with strategic <br />
                           investments in essential services
                         </p>
-                      </a>
+                      </span>
                     </div>
                   </li>
                 </ul>
@@ -490,6 +470,8 @@ const page = () => {
                     className="mil-scale-img"
                     data-value-1={1}
                     data-value-2="1.2"
+                    width="100%"
+                    height="100%"
                   />
                 </div>
               </div>
@@ -580,18 +562,6 @@ const page = () => {
                   </Link>
                 </div>
               </div>
-              {/* <div className="col-xl-5 mil-mb-80">
-                <div className="mil-image-frame mil-up">
-                  <img
-                    src="img/home-5/4.png"
-                    loading="lazy"
-                    alt="Promotional Image For Shiro Concepts Investment"
-                    className="mil-scale-img"
-                    data-value-1={1}
-                    data-value-2="1.2"
-                  />
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

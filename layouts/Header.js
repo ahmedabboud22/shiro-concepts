@@ -5,8 +5,10 @@ import { useState } from "react";
 
 const Header = ({ dark }) => {
   const currentPath = usePathname();
-  const activeMenuFuntion = (value) =>
-    value.some((el) => currentPath.includes(el)) ? "mil-active" : "";
+  const activeMenuFuntion = (value) => {
+    if (currentPath === "/" && value.includes("home")) return "mil-active"; // معالجة حالة "/"
+    return value.some((el) => currentPath.includes(el)) ? "mil-active" : "";
+  };
   const [toggle, setToggle] = useState(false);
   return (
     <div className="mil-top-panel mil-dark-2">

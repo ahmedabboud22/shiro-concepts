@@ -75,13 +75,15 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
               }}
             >
               <li className="mil-text-m mil-pale mil-mb-15">
-                +971 (0) 4 512 6800
+                <Link href="tel:+971045126800"> +971 (0) 4 512 6800</Link>
               </li>
               <li className="mil-text-m mil-pale mil-mb-15">
-                +971 52 795 5078
+                <Link href="tel:+971527955078"> +971 52 795 5078</Link>
               </li>
               <li className="mil-text-m mil-pale mil-mb-15">
-                info@shiroinvestment.com
+                <Link href="mailto:info@shiroinvestment.com">
+                  info@shiroinvestment.com
+                </Link>
               </li>
             </ul>
           </div>
@@ -127,50 +129,70 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
             </div>{" "}
             <div className="col-xl-6">
               <p className="mil-text-s mil-text-right mil-sm-text-left mil-pale">
-                <a
+                <Link
                   href="#"
                   target="blank"
+                  aria-label="Visit Shiro Concepts Facebook account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts Facebook account
+                  </span>
                   <BsFacebook size={20} fill="white" />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   target="blank"
+                  aria-label="Visit Shiro Concepts Instagram account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts Instagram account
+                  </span>
                   <BsInstagram size={20} fill="white" />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   target="blank"
+                  aria-label="Visit Shiro Concepts LinkedIn account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts LinkedIn account
+                  </span>
                   <BsLinkedin size={20} fill="white" />
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="https://twitter.com/ShiroConcepts"
                   target="blank"
+                  aria-label="Visit Shiro Concepts Twitter account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts Twitter account
+                  </span>
                   <BsTwitter size={20} fill="white" />
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -238,42 +260,44 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
               }}
             >
               <li className="mil-text-m mil-pale mil-mb-15">
-                +971 (0) 4 512 6800
+                <Link href="tel:+971045126800"> +971 (0) 4 512 6800</Link>
               </li>
               <li className="mil-text-m mil-pale mil-mb-15">
-                +971 52 795 5078
+                <Link href="tel:+971527955078"> +971 52 795 5078</Link>
               </li>
               <li className="mil-text-m mil-pale mil-mb-15">
-                info@shiroinvestment.com
+                <Link href="mailto:info@shiroinvestment.com">
+                  info@shiroinvestment.com
+                </Link>
               </li>
             </ul>
           </div>
           {/* <div className="col-xl-3 mil-mb-80">
-          <h3 className="mil-mb-60 mil-soft">Newsletter</h3>
-          <p className="mil-text-xs mil-pale mil-mb-15">
-            Subscribe to get the latest news form us
-          </p>
-          <form className="mil-subscripe-form-footer">
-            <input className="mil-input" type="email" placeholder="Email" />
-            <button type="submit" aria-label="submit button">
-              <i className="far fa-envelope-open mil-dark" />
-            </button>
-            <div className="mil-checkbox-frame mil-mt-15">
-              <div className="mil-checkbox">
-                <input
-                  type="checkbox"
-                  id="checkbox"
-                  defaultChecked=""
-                  style={{ backgroundColor: " #e7e5e0" }}
-                />
-                <label htmlFor="checkbox" />
-              </div>
-              <p className="mil-text-xs mil-pale">
-                Subscribe to get the latest news
-              </p>
+        <h3 className="mil-mb-60 mil-soft">Newsletter</h3>
+        <p className="mil-text-xs mil-pale mil-mb-15">
+          Subscribe to get the latest news form us
+        </p>
+        <form className="mil-subscripe-form-footer">
+          <input className="mil-input" type="email" placeholder="Email" />
+          <button type="submit" aria-label="submit button">
+            <i className="far fa-envelope-open mil-dark" />
+          </button>
+          <div className="mil-checkbox-frame mil-mt-15">
+            <div className="mil-checkbox">
+              <input
+                type="checkbox"
+                id="checkbox"
+                defaultChecked=""
+                style={{ backgroundColor: " #e7e5e0" }}
+              />
+              <label htmlFor="checkbox" />
             </div>
-          </form>
-        </div> */}
+            <p className="mil-text-xs mil-pale">
+              Subscribe to get the latest news
+            </p>
+          </div>
+        </form>
+      </div> */}
         </div>
         <div className="mil-footer-bottom">
           <div className="row">
@@ -290,50 +314,70 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
             </div>{" "}
             <div className="col-xl-6">
               <p className="mil-text-s mil-text-right mil-sm-text-left mil-pale">
-                <a
+                <Link
                   href="#"
                   target="blank"
+                  aria-label="Visit Shiro Concepts Facebook account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts Facebook account
+                  </span>
                   <BsFacebook size={20} fill="white" />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   target="blank"
+                  aria-label="Visit Shiro Concepts Instagram account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts Instagram account
+                  </span>
                   <BsInstagram size={20} fill="white" />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   target="blank"
+                  aria-label="Visit Shiro Concepts LinkedIn account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts LinkedIn account
+                  </span>
                   <BsLinkedin size={20} fill="white" />
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="https://twitter.com/ShiroConcepts"
                   target="blank"
+                  aria-label="Visit Shiro Concepts Twitter account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts Twitter account
+                  </span>
                   <BsTwitter size={20} fill="white" />
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -402,13 +446,15 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
               }}
             >
               <li className="mil-text-m mil-pale mil-mb-15">
-                +971 (0) 4 512 6800
+                <Link href="tel:+971045126800"> +971 (0) 4 512 6800</Link>
               </li>
               <li className="mil-text-m mil-pale mil-mb-15">
-                +971 52 795 5078
+                <Link href="tel:+971527955078"> +971 52 795 5078</Link>
               </li>
               <li className="mil-text-m mil-pale mil-mb-15">
-                info@shiroinvestment.com
+                <Link href="mailto:info@shiroinvestment.com">
+                  info@shiroinvestment.com
+                </Link>
               </li>
             </ul>
           </div>
@@ -454,50 +500,70 @@ const Footer2 = ({ bg = true, margin = 160 }) => {
             </div>{" "}
             <div className="col-xl-6">
               <p className="mil-text-s mil-text-right mil-sm-text-left mil-pale">
-                <a
+                <Link
                   href="#"
                   target="blank"
+                  aria-label="Visit Shiro Concepts Facebook account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts Facebook account
+                  </span>
                   <BsFacebook size={20} fill="white" />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   target="blank"
+                  aria-label="Visit Shiro Concepts Instagram account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts Instagram account
+                  </span>
                   <BsInstagram size={20} fill="white" />
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   target="blank"
+                  aria-label="Visit Shiro Concepts LinkedIn account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts LinkedIn account
+                  </span>
                   <BsLinkedin size={20} fill="white" />
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="https://twitter.com/ShiroConcepts"
                   target="blank"
+                  aria-label="Visit Shiro Concepts Twitter account (opens in a new tab)"
                   style={{
                     display: "inline-block",
                     marginRight: "15px",
                     marginTop: "15px",
                   }}
                 >
+                  {" "}
+                  <span style={{ position: "absolute", left: "-9999px" }}>
+                    Visit Shiro Concepts Twitter account
+                  </span>
                   <BsTwitter size={20} fill="white" />
-                </a>
+                </Link>
               </p>
             </div>
           </div>
