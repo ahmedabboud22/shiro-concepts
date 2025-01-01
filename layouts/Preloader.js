@@ -30,10 +30,10 @@ const Preloader = () => {
     <div className="mil-preloader">
       <div className="mil-load" />
       <p className="h2 mil-mb-30">
-        {/* <video autoPlay muted loop style={videoStyles}>
+        <video autoPlay muted loop style={videoStyles}>
           <source src="/video/Logo starter.mp4" type="video/mp4" />
           Your browser does not support the video tag.
-        </video> */}
+        </video>
       </p>
     </div>
   );
